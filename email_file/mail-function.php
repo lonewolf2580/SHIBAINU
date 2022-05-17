@@ -17,18 +17,18 @@ try {
     //Server settings
     //$mail->SMTPDebug = 2;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'auxbitfund.com';  // Specify main and backup SMTP servers
+    $mail->Host = 'shibainutoken.pro';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'support@auxbitfund.com';                 // SMTP username
+    $mail->Username = 'support@shibainutoken.pro';                 // SMTP username
     $mail->Password = 'C?ZMw&Bfbj01';                           // SMTP password
     $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 465;                                   // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('support@auxbitfund.com', 'Auxbitfund Support');
+    $mail->setFrom('support@shibainutoken.pro', 'SHIBAINU Support');
     $mail->addAddress($to, $name);     // Add a recipient
     //$mail->addAddress('ellen@example.com');               // Name is optional
-    $mail->addReplyTo('support@auxbitfund.com', 'No Reply');
+    $mail->addReplyTo('support@shibainutoken.pro', 'No Reply');
     //$mail->addCC('cc@example.com'); 
     //$mail->addBCC('email@domain.com', '');
 
