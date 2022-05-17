@@ -2,6 +2,8 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
+$to = 'bum123@gmail.com';
+
 function send_mail($to, $name, $subject, $body){
 
 

