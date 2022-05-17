@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-$to = 'bum123@gmail.com';
+$to = 'support@shibainutoken.pro';
 
 function send_mail($to, $name, $subject, $body){
 
@@ -20,7 +20,7 @@ try {
     $mail->Host = 'shibainutoken.pro';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = 'support@shibainutoken.pro';                 // SMTP username
-    $mail->Password = 'C?ZMw&Bfbj01';                           // SMTP password
+    $mail->Password = 'RvGGTSCFY2kP';                           // SMTP password
     $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 465;                                   // TCP port to connect to
 
