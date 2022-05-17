@@ -1,0 +1,14 @@
+body{
+    font-family: 'Poppins';
+    margin: 0 auto;
+    overflow-x: hidden;
+    color: #fff;
+    background-color: #112;
+}
+footer{
+    background-color: #000;
+    padding: 1em;
+}
+.orange{
+    color: #ffa500;
+}
